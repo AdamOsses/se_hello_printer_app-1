@@ -16,6 +16,9 @@ jobs:
       # instalacja wymaganych bibliotek
       - name: Install deps
         run: make deps
+      # pep-8
+      - name: Check PEP-8 style
+        run: make lint
       # testy!!!!!
       - name: Tests
         run: make test
