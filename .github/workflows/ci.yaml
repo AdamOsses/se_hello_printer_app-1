@@ -47,4 +47,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: AdamOsses/se_hello_printer_app-1:1.2.0
+          tags: adamosses/test:1.0
