@@ -10,8 +10,10 @@ jobs:
     steps:
        # pobierz kod z repo
        # moja aplikacja jest w Pythonie wiec dodaj tez pythona!
-      - name: Checkout and python3
+      - name: Checkout
       - uses: actions/checkout@v3
+
+      - name: Python3
       - uses: actions/setup-python@v3
       # instalacja wymaganych bibliotek
       - name: Install deps
