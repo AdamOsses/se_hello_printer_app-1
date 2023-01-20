@@ -10,7 +10,7 @@ jobs:
     steps:
        # pobierz kod z repo
        # moja aplikacja jest w Pythonie wiec dodaj tez pythona!
-      - name: Checkout
+      #- name: Checkout
       - uses: actions/checkout@v3
 
       - name: Python3
